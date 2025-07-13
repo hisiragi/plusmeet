@@ -1,4 +1,15 @@
-    header {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+        
       position: fixed;
       top: 0;
       width: 100%;
@@ -66,10 +77,11 @@
       line-height: 1.5;
     }
 
-    .fixed-label {
+    .fixed-label　{
       margin-top: -60px;
       font-size: 14px;
       color: #333;
+    }
 .green {
     color: rgb(0, 0, 0);
     font: bold 35px Notosans, sans-serif;

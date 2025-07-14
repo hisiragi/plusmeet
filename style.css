@@ -69,7 +69,8 @@ header {
       opacity: 0;
       transform: translateY(30px);
       transition: opacity 1s ease, transform 1s ease;
-      font-size: 2.5rem;
+      font-size: 60px;;
+      margin-bottom: 40px;
     }
     .fade-in-text.show {
       opacity: 1;

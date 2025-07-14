@@ -1,3 +1,3 @@
-window.addEventListener("load", () => {
-  document.querySelector("fade-in-text").classList.add("show");
-});
+    window.addEventListener("load", () => {
+      document.querySelector(".fade-in-text").classList.add("show");
+    });

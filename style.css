@@ -68,6 +68,7 @@ header {
     .fade-in-text {
       opacity: 0;
       transform: translateY(30px);
+      transition: font-size 1s ease;
       transition: opacity 1s ease, transform 1s ease;
       font-size: 60px;;
       margin-bottom: 40px;

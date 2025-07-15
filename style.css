@@ -70,8 +70,8 @@ header {
       transform: translateY(30px);
       transition: font-size 1s ease;
       transition: opacity 1s ease, transform 1s ease;
-      font-size: 60px;;
-      margin: 200px;
+      margin-top: 90px;
+      margin-bottom: 400px;
     }
     .fade-in-text.show {
       opacity: 1;

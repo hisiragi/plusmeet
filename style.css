@@ -107,10 +107,10 @@ header {
     text-align: center;
     color: #ffffff;
     text-shadow: 
-    -3px -3px 0 black,
-     3px -3px 0 black,
-    -3px  3px 0 black,
-     3px  3px 0 black; /* 縁取りの色 */
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black; /* 縁取りの色 */
 }
 .box1 {
   margin-bottom: 15px;
@@ -126,3 +126,4 @@ header {
     font-weight: 700;
     text-align: center;
     color: #000000;
+ }

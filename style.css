@@ -111,6 +111,16 @@ header {
      1px -1px 0 black,
     -1px  1px 0 black,
      1px  1px 0 black; /* 縁取りの色 */
+.function {
+    font: bold 70px Notosans, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black; /* 縁取りの色 */
 }
 .box1 {
   margin-bottom: 15px;

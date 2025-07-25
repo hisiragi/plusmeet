@@ -46,9 +46,26 @@
         </section>
 
         <section id="contact">
-            <h2>お問い合わせ</h2>
-            <p>詳細については、<a href="mailto:hisiragi.hisiragi.jp@gmail.com">hisiragi.hisiragi.jp@gmail.com</a>までお問い合わせください。</p>
+            <h2 class="contact-title">お問い合わせ</h2>
+            <p id="contact-detail">
+                <span id="show-mail" style="cursor:pointer; color:#007bff; text-decoration:underline;">
+                    詳細についてはこちらをクリックしてください
+                </span>
+                <span id="mail-address" style="display:none;">
+                    <a href="mailto:hisiragi.hisiragi.jp@gmail.com">hisiragi.hisiragi.jp@gmail.com</a>
+                </span>
+            </p>
         </section>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const showMail = document.getElementById('show-mail');
+                const mailAddress = document.getElementById('mail-address');
+                showMail.addEventListener('click', function() {
+                    showMail.style.display = 'none';
+                    mailAddress.style.display = 'inline';
+                });
+            });
+        </script>
     </main>
 </body>
 </html>

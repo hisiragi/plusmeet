@@ -111,6 +111,7 @@ header {
      1px -1px 0 black,
     -1px  1px 0 black,
      1px  1px 0 black; /* 縁取りの色 */
+}
 .function {
     font: bold 70px Notosans, sans-serif;
     font-weight: 700;
